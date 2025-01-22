@@ -9,5 +9,4 @@ int main(){
     else{
         printf("Flase");
     }
-    return 0;
 }

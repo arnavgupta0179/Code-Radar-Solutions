@@ -10,6 +10,3 @@ int main(){
     printf("Age: %d\n",x);
     printf("Hobby: %s\n",b);
 }
-
-
-

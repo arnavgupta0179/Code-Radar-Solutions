@@ -3,7 +3,7 @@ int main(){
     int a,b;
     scanf("%d %d",&a,&b);
     int result;
-    result = x << y;
+    result = a << b;
     printf("%d",result);
     return 0;
 }

@@ -9,4 +9,4 @@ int main(){
         printf("No");
     }
     return 0,
-    }
+}

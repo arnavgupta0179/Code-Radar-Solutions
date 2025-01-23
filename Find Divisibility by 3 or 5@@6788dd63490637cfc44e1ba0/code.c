@@ -1,7 +1,7 @@
 #include <stdio.h>
 int mani(){
     int a;
-    scanf("%d %d",&a);
+    scanf("%d",&a);
     if(a%5==0 && a%3==0){
         printf("Divisible by both");
     }

@@ -5,7 +5,7 @@ int main(){
     if(x>=y){
         printf("Yes");
     }
-    else if(x<=y){
+    else{
         printf("No");
     }
     return 0,

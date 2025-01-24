@@ -18,6 +18,6 @@ int main() {
             result = x*y;
             break;
     }
-    printf("%lf",result);
+    printf("%.2lf",result);
     return 0;
 }

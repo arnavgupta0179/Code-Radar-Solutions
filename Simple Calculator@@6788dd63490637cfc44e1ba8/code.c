@@ -2,7 +2,7 @@
 int main() {
     char operator;
     int x,y,result;
-    scanf("%f %f",&x,&y);
+    scanf("%d %d",&x,&y);
     scanf("%c",&operator);
     switch(operator){
         case '+':
@@ -18,6 +18,6 @@ int main() {
             result = x*y;
             break;
     }
-    printf("%.2f",result);
+    printf("%d",result);
     return 0;
 }

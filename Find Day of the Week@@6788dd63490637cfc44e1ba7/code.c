@@ -2,6 +2,9 @@
 int main(){
     int num;
     scanf("%d",&num);
+    if(num>7 || num<1){
+        printf("Invalid");
+    }
     if(num==1){
         printf("Monday");
     }

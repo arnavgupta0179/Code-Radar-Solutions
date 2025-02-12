@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-    int x,y;
-    scanf("%d %d",&x,&y);
-    if(x>=y){
-        printf("Yes");
+    int num1,num2;
+    scanf("%d %d",&num1,&num2);
+    if(num1>num2){
+        printf("Yes")
     }
-    else{
+    else if(num1<num2){
         printf("No");
     }
-    return 0,
+    return 0;
 }

@@ -1,13 +1,16 @@
 #include <stdio.h>
-#include<math.h>
 int main() {
-    int num;
-    scanf("%d",&num);
-    if(num>0 && (num & (num-1))==0){
-        printf("Not Set");
-    }
-    else{
-        printf("Set");
+    unsigned int num;
+    scanf("%u", &num);
+    if (num == 0) {
+        printf("Not set\n");  
+    } else {
+        unsigned int msb = 1 << (sizeof(num) * 8 - 1);
+        if (num & msb) {
+            printf("SET\n");
+        } else {
+            printf("Not set\n");
+        }
     }
     return 0;
 }

@@ -7,9 +7,9 @@ int main() {
     } else {
         unsigned int msb = 1 << (sizeof(num) * 8 - 1);
         if (num & msb) {
-            printf("SET\n");
+            printf("Set\n");
         } else {
-            printf("Not set\n");
+            printf("Not Set\n");
         }
     }
     return 0;

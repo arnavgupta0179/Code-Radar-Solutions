@@ -20,11 +20,7 @@ int main() {
             days = 30;
             break;
         case 2:  
-            if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
-                days = 29;  // Leap year
-            } else {
-                days = 28;  // Non-leap year
-            }
+            days = 28;  
             break;
         default:
             printf("Invalid month\n");

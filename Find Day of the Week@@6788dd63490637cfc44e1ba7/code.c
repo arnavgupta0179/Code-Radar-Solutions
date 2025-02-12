@@ -5,7 +5,6 @@ int main(){
     if(num<1 && num>7){
         printf("Invalid");
     }
-    }
     else if(num==1){
         printf("Monday");
     }

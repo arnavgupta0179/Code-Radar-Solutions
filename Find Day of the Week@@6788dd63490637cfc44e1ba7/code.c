@@ -2,10 +2,11 @@
 int main(){
     int num;
     scanf("%d",&num);
-    if(num>7 || num<1){
+    if(num<1 && num>7){
         printf("Invalid");
     }
-    if(num==1){
+    }
+    else if(num==1){
         printf("Monday");
     }
     else if(num==2){

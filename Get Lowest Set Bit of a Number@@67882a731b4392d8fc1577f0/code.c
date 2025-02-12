@@ -2,11 +2,7 @@
 int main() {
     unsigned int num;
     scanf("%u", &num);
-    int lowestBit = num & 1;
-    if (lowestBit == 1) {
-        printf("0\n");
-    } else {
-        printf("1\n");
-    }
+    unsigned int lowestSetBit = num & -num;
+    printf("%u\n",lowestSetBit);
     return 0;
 }

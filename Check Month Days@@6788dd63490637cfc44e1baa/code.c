@@ -30,9 +30,6 @@ int main() {
             printf("Invalid month\n");
             return 1;  
     }
-
-    // Print the result
-    printf("Number of days in month %d of year %d: %d\n", month, year, days);
-    
+    printf("%d", days);
     return 0;
 }

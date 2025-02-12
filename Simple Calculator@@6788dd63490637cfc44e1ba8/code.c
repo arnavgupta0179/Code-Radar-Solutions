@@ -15,7 +15,7 @@ int main() {
             if (y != 0) {    
                 result = x / y;  
             } else {
-                printf("Error: Division by zero\n");
+                printf("error\n");
                 return 1;  
             }
             break;
